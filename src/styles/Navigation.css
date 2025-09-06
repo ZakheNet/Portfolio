@@ -1,0 +1,23 @@
+@font-face {
+    font-family: ken;
+    src: url(../fonts/kenvector.ttf);
+}
+@font-face {
+    font-family: bug;
+    src: url(../fonts/bug.ttf);
+}
+
+
+
+.navLinks{align-items: end;a{color: black;text-decoration: none;}}
+
+.backBox{height: 2.2rem;display: flex;gap: 0.4rem;align-items: center;img{height: 72%;};font-size: 1.7rem;color: black;text-decoration: none;}
+.backbox:hover{p{color: whitesmoke};}
+.portfolioTittle{font-size: 1.7rem;font-family: bug;color: rgb(255, 255, 255);align-self: center;padding: 0;margin: 0.3rem 1.5rem 0;}
+.navigation{margin-bottom: 5rem;;}
+
+.navLinks a:is(:hover,:focus){transform: scale(1.2);background: red;border-radius: 2rem;transition: all 0.2s ease;}
+
+.themeSet{background: none;border: none;font-size: 1.5REM;}
+.themeSet:hover{cursor: pointer;}
+

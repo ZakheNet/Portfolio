@@ -1,0 +1,15 @@
+.project{color: white;height: 15rem;width: 25rem;display: flex;flex-direction: column;align-items: center;background: rgba(133, 0, 0, 0.432);border-radius: 1rem;padding: 0.3rem;margin-bottom: 1.5rem;}
+.projectName{font-family: Verdana, Geneva, Tahoma, sans-serif;background: rgba(0, 0, 0, 0.3);width: 100%;text-align: center;border-radius: 0.6rem 0.6rem 0 0 ;padding: 0.3rem;margin-bottom: 0.35rem;font-size: 1.5rem;}
+
+.projectBody{height: 73%;}
+.picInfoPair{height: 100%;display: flex;flex-direction:row;justify-content: center;gap: 0.6rem;}
+.projectAbout{width: 45%;font-size: 1.3rem;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular';padding-right: 1rem;align-self: center;}
+.projectImgBox{overflow: hidden;width: 45%;height:100%;display: flex;align-items: center;justify-content: center;margin-left: 1rem;}
+.projectImg{overflow: hidden;height: 100%;align-self: cent;width: 100%;}
+
+.action{display: flex;justify-content: space-around;padding: 0.5rem;.linkBtn{padding: 0.4rem 1.5rem;background: gold;border: none;font-weight: bold;font-size: 1.1rem;color: black;font-family: arial;}}
+
+.linkBtn:hover{cursor: pointer;transform: scale(1.07);transition: all ease 0.2s;}
+.linkBtn:disabled{cursor: not-allowed;opacity: 0.6;}
+
+.project:hover{background: rgb(15, 15, 15);transform: scale(1.03);box-shadow: 0rem 0rem 0.5rem rgb(255, 87, 87);transition: all 0.3s ease;}
