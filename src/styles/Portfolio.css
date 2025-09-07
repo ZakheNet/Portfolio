@@ -37,7 +37,7 @@ section{background: rgba(0, 0, 0, 0.4);min-height: fit-content;padding:  1rem;ma
 
 .sectionTittle{color: white;font-size: 3rem;font-family: hello;}
 
-.mySkills{display: flex;gap: 1.5rem;flex-wrap: wrap;width:auto;}
+.mySkills{display: flex;gap: min(1.5rem,3.5vw);flex-wrap: wrap;width:auto;}
 
 .heroImgBox:hover{img{transform: scale(1.1);transition: all 0.15s ease}.backColor{box-shadow: inset 0rem 0rem 0.3rem rgb(255, 0, 0);transition: all 0.15s ease}}
 
