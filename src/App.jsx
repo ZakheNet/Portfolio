@@ -13,6 +13,7 @@ const App=()=>{
     </header>
     <main>
     <Routes>
+        <Route path='/Portfolio/' element={<Portfolio />}/>
         <Route path='/' element={<Portfolio />}/>
         <Route path='/Photoshop' element={<Photoshop />} />
         <Route path='*' element={<NotFound/>}/>
