@@ -8,34 +8,75 @@ import { nanoid } from '@reduxjs/toolkit'
 import { Link } from 'react-router'
 
 
-const projects=[{name:"Business Card Maker",image:BizCard,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My original idea of an app that designs business cards."},{name:"Bootcamp homepage",image:WeCode,isLive:true,isCode:true,codeLink:"https://github.com/ZakheNet/WeCodeBootcamp",liveLink:"https://zakhenet.github.io/WeCodeBootcamp/",about:"An enrollment homepage for an online coding bootcamp"},{name:"Todo List App",image:TodoList,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"A simple yet fully functional TodoList app."},{name:"Photoshop Work",image:PhotoshopPrj,isLive:true,isCode:false,codeLink:"",liveLink:"*********",about:"Some of my Adobe Photoshop projects over the years."},{name:"PlayStore Games",image:KbsGames,isLive:true,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My published android games made with Unity Engine."},]
+const projects=[
+    {name:"Business Card Maker",image:BizCard,
+    codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"App that dynamically designs business cards.",
+    stacks:["","Bootstrap","React"]},
 
-export default function Certificates(){
+    {name:"Bootcamp homepage",image:WeCode, codeLink:"https://github.com/ZakheNet/WeCodeBootcamp",liveLink:"https://zakhenet.github.io/WeCodeBootcamp/",about:"A coding bootcamp landing homepage",
+    stacks:["","Bootstrap","Vanilla JavaScript"]},
+    {name:"Todo List App",image:TodoList,
 
-    const CertificateElements=projects.map(cert=>MakeCertificate(cert))
+    codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"A fully functional TodoList app.",
+    stacks:["React","",""]},
 
-    return(CertificateElements)
+    {name:"Photoshop Work",image:PhotoshopPrj,
+    codeLink:"",liveLink:"",about:"My Adobe Photoshop projects.",
+    stacks:["","Photoshop",""]},
+
+    {name:"PlayStore Games",image:KbsGames,
+    codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My published android games made with Unity Engine.",
+    stacks:["C#","Unity 2d","Photoshop"]},
+]
+
+
+
+
+
+export default function Projects(){
+
+    const ProjectElements=projects.map(cert=>MakeProject(cert))
+
+    return(ProjectElements)
 }
 
-function MakeCertificate(data){
+function MakeProject(data){
+
+    const StackElements=data.stacks.map(stack=>MakeStack(stack))
 
 
     return(
     <div className='project' key={nanoid()}>
-        <h1 className='projectName'>{data.name}</h1>
-        <div className="projectBody">
-            <div className="picInfoPair">
-                <div className="projectImgBox">
-                <img className='projectImg' src={data.image} alt="project preview" />
-                </div>
-                <p className="projectAbout">
-                    {data.about}
-                </p>
-            </div>
-            <div className="action">
-                {data.liveLink[0]=='/'?(data.isLive?<Link to={data.liveLink} className='linkBtn' >See LIVE</Link>:<></>):(data.isLive?<a target='_blank' href={data.liveLink} className='linkBtn' >See LIVE</a>:<></>)}
-                {data.isCode?<a target='_blank' href={data.codeLink} className='linkBtn' >View Code</a>:<></>}
-            </div>
+       <h1 className='projectName'>{data.name}</h1>
+       <div className="views">
+        <img className='prjImage' src={data.image}/>
+        <p className="description">
+        {data.about}
+       </p>
+       </div>
+       <div className="stacksUsed">
+        <p className="stacksTittle">Stacks Used:</p>
+        <div className="stacks">
+            {StackElements}
         </div>
+       </div>
+       
+       <div className="actions">
+        {data.liveLink==""?<></>:<div className="actionPack">
+            <p className="actionLabel">see</p>
+            <button className="action">LIVE</button>
+        </div>}
+        {data.codeLink==""?<></>:<div className="actionPack">
+            <p className="actionLabel">see</p>
+            <a href={data.codeLink}><button className="action">CODE</button></a>
+        </div>}
+       </div>
     </div>)
+}
+
+function MakeStack(stack){
+    if(stack=="")return
+    return(
+        <p className={`stack${stack} stack`}>{stack}</p>
+    )
 }

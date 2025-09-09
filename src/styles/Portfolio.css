@@ -30,11 +30,12 @@ img{place-self: end;width: 100%;margin-bottom: -0.5rem;border-radius: 3rem;}}
 
 .role{color: white;font-size: min(2.5rem,4vw);font-family: helsinki,arial;}
 
-section{background: rgba(0, 0, 0, 0.4);min-height: fit-content;padding:  1rem;margin: 2rem;border-radius: 1.5rem;box-shadow: 0rem 0rem 0.4rem red;}
+section{background: rgba(0, 0, 0, 0.4);min-height: fit-content;padding:  1rem;margin: 2rem min(2rem,1.5vw);border-radius: 1.5rem;box-shadow: 0rem 0rem 0.4rem red;}
 
 .myName{font-family: diamante,arial;font-size:min(8rem,15vw);color: red;display: flex;}
 .myName :nth-child(3){margin-right: 2.5rem;}
 
+.projects{padding-bottom: 2.5rem;}
 
 .about{color: white;text-shadow: 0rem 0rem 0.5rem red;font-size: min(2.3rem,6vw);padding: 1rem;text-align: center;font-family: Arial, Helvetica, sans-serif;align-self: end;margin-top: 5rem;}
 
@@ -56,6 +57,6 @@ section{background: rgba(0, 0, 0, 0.4);min-height: fit-content;padding:  1rem;ma
     100%{transform: translateY(0%) scale(1);}   
 }
 
-.certified,.projectsBox{gap: 1rem;display: flex;justify-content: center;flex-wrap: wrap;}
-
-.modal-content{min-width: 41ch;.modal-header{font-family: monospace;padding: 0.2rem 1rem;background: rgb(231, 231, 231)} .infoPanel{background: rgb(187, 229, 255)};}
+.certified,.projectsBox{gap: 2rem;display: flex;justify-content: center;flex-wrap: wrap;}
+.modal-dialog{display: flex;justify-content: center;}
+.modal-content{width: max(50vw,41ch);.modal-header{font-family: monospace;padding: 0.2rem 1rem;background: rgb(231, 231, 231)} .infoPanel{background: rgb(187, 229, 255);width: fit-content;};}

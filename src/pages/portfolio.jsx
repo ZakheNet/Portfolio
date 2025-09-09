@@ -94,7 +94,10 @@ export default function Portfolio() {
                   <li><strong>70%-%89 : </strong>Very fluent and knowledged</li>
                   <li><strong>90%-100% : </strong>Advanced level</li>
                </ul>
-               <p className="infoPanel rounded px-2"><strong>NB:</strong> these stats / percentages are based on an intermediate skill level meaning a 80% should equate to an advanced intermediate level but not senior experienced level.</p>
+               <div className="infoPanel gap-2 px-2 py-1 rounded d-flex">
+                  <p ><strong>NB: </strong></p>
+                  <p className="m-0">these stats / percentages are based on an intermediate skill level meaning a 80% should equate to an advanced intermediate level but not senior experienced level.</p>
+               </div>
               </div>
               <div className="modal-footer">
                 <button
