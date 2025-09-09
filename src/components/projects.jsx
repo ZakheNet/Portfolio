@@ -1,5 +1,5 @@
 import '../styles/project.css'
-import PhotoshopPrj from '../Images/Photoshops/anim3.png'
+import PhotoshopPrj from '../Images/ProjectThumbnail/Photoshop.png'
 import KbsGames from '../Images/ProjectThumbnail/KbsGamesPR.png'
 import TodoList from '../Images/ProjectThumbnail/TodoList.png'
 import BizCard from '../Images/ProjectThumbnail/BizCard.png'
@@ -8,7 +8,7 @@ import { nanoid } from '@reduxjs/toolkit'
 import { Link } from 'react-router'
 
 
-const projects=[{name:"Business Card Maker",image:BizCard,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My original idea of a app that designs business cards."},{name:"Bootcamp homepage",image:WeCode,isLive:true,isCode:true,codeLink:"https://github.com/ZakheNet/WeCodeBootcamp",liveLink:"https://zakhenet.github.io/WeCodeBootcamp/",about:"An enrollment homepage for an online coding bootcamp"},{name:"Todo List App",image:TodoList,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"A simple yet fully functional TodoList app."},{name:"Photoshop Work",image:PhotoshopPrj,isLive:true,isCode:false,codeLink:"",liveLink:"/Photoshop",about:"Some of my Adobe Photoshop projects over the years."},{name:"PlayStore Games",image:KbsGames,isLive:true,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My published android games made with Unity Engine."},]
+const projects=[{name:"Business Card Maker",image:BizCard,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My original idea of an app that designs business cards."},{name:"Bootcamp homepage",image:WeCode,isLive:true,isCode:true,codeLink:"https://github.com/ZakheNet/WeCodeBootcamp",liveLink:"https://zakhenet.github.io/WeCodeBootcamp/",about:"An enrollment homepage for an online coding bootcamp"},{name:"Todo List App",image:TodoList,isLive:false,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"A simple yet fully functional TodoList app."},{name:"Photoshop Work",image:PhotoshopPrj,isLive:true,isCode:false,codeLink:"",liveLink:"*********",about:"Some of my Adobe Photoshop projects over the years."},{name:"PlayStore Games",image:KbsGames,isLive:true,isCode:false,codeLink:"",liveLink:"https://play.google.com/store/apps/dev?id=8952403180123485246&hl=en_US",about:"My published android games made with Unity Engine."},]
 
 export default function Certificates(){
 

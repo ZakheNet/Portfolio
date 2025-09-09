@@ -28,10 +28,18 @@ export default function Portfolio(){
                         <p className="role">Frontend Web Developer <span style={{}}></span></p>
                     </div>
                     </div>
+                    <div>
                     <div className="heroContainer">
                     <div className="heroImgBox">
                         <img src={hero} alt="My photo" className='hero'/>
                     </div>
+                    </div>
+                        <div className="call">
+                            +27 60 436 1116
+                        </div>
+                        <div className="mail">
+                            ZakheNet@gmail.com
+                        </div>
                     </div>
                 </div>
                 
