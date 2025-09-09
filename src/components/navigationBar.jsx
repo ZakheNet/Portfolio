@@ -14,7 +14,7 @@ return(
 <div>
 
     <nav
-        className="navbar rounded-pill fixed-top m-2 p-0 navbar-expand-md navbar-dark" style={{background:'red'}}
+        className="navbar rounded fixed-top m-2 p-0 navbar-expand-md navbar-dark" style={{background:'red'}}
     >
         <div className="container-fluid">
             {location.pathname=='/' || location.pathname=='/Portfolio/'?<p className="portfolioTittle">PORTFOLIO</p>:<Link to={'/'} className="backBox m-2"><img src={BackIcon} /> <p className="backBtn m-0 fw-bold">BACK</p></Link>}

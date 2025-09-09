@@ -1,6 +1,6 @@
 .certificate{display: flex;flex-direction: column;align-items: center;background: rgba(80, 80, 80, 0.425);width: fit-content;padding: 1rem;border-radius: 1rem;}
 
-.certName{color: white;font-size: 2rem;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-bottom: 0.3rem;}
+.certName{color: white;font-size: min(1.8rem,5.7vw);text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-bottom: 0.3rem;}
 
 .viewCert{margin-top: 0.6rem;font-size: 1.4rem;a{color: white}}
-.certPreview{height: 15rem;}
+.certPreview{height: min(14rem,50vw);}
