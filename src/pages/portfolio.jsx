@@ -34,7 +34,7 @@ export default function Portfolio() {
                 </p>
               </div>
             </div>
-            <div>
+            <div className="rightHero">
               <div className="heroContainer">
                 <div className="heroImgBox">
                   <img src={hero} alt="My photo" className="hero" />

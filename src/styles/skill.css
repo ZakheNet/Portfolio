@@ -3,7 +3,7 @@
     font-family: code;
     src: url(../fonts/LowGunScreenBold.ttf);
 }
-.skill{text-align: center;background: rgba(124, 0, 0, 0.7);width: fit-content; padding: 0.3rem;border-radius: 1rem;min-width: min(10rem,34vw);flex-grow: 1;max-width: min(11rem,35vw);}
+.skill{text-align: center;background: rgba(124, 0, 0, 0.7);width: fit-content; padding: 0.3rem;border-radius: 1rem;min-width: min(9rem,34vw);flex-grow: 1;max-width: min(12rem,44vw);}
 
 .skillName{color: white;font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: min(1.4rem,4.5vw);}
 
