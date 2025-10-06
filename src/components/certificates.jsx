@@ -1,10 +1,14 @@
 import '../styles/certificate.css'
 import ResponsiveWDfcc from '../Images/certificates/PreviewRWD.png'
 import JSAlgorithmDtSt from '../Images/certificates/PreviewJADS.png'
+import FrontendLiraries from '../Images/certificates/PreviewFEDL.png'
 
 import { nanoid } from '@reduxjs/toolkit'
 
-const certificates =[["Responsive Web Design",ResponsiveWDfcc,"https://www.freecodecamp.org/certification/zakhe/responsive-web-design"],["JavaScript Algorithms & Data Structures",JSAlgorithmDtSt,"https://www.freecodecamp.org/certification/zakhe/javascript-algorithms-and-data-structures-v8"],]
+const certificates =[["Responsive Web Design",ResponsiveWDfcc,"https://www.freecodecamp.org/certification/zakhe/responsive-web-design"],
+["JavaScript Algorithms & Data Stru...",JSAlgorithmDtSt,"https://www.freecodecamp.org/certification/zakhe/javascript-algorithms-and-data-structures-v8"],
+["Frontend Development Libraries",FrontendLiraries,"https://www.freecodecamp.org/certification/zakhe/front-end-development-libraries"],
+]
 
 export default function Certificates(){
 

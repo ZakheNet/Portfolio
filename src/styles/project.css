@@ -15,7 +15,7 @@
 .project:hover{background: rgb(15, 15, 15);transform: scale(1.03);box-shadow: 0rem 0rem 0.5rem rgb(255, 87, 87);transition: all 0.3s ease;} */
 
 :root {
-  --fsTittle: min(2rem, 7vw);
+  --fsTittle: min(1.7rem, 7vw);
   --fsAction: min(1.2rem, 4.5vw);
   --fsLabel: min(1.3rem, 4.5vw);
   --fsText: min(1.5rem, 5vw);
@@ -43,6 +43,7 @@
       }
    }
   .actions {
+    p{margin: 0;}
     display: flex;
     justify-content: space-evenly;
     .actionPack {
@@ -52,17 +53,20 @@
       color: black;
       text-align: center;
       margin-bottom:-1.5rem;
-      .actionLabel {
-        margin: 0;font-size: var(--fsLabel);
+      text-decoration: none;
+    }
+    .actionLabel{
+        margin: 0 0 0.1rem;
+        font-size: var(--fsLabel);
         line-height: 0.6rem;
+        text-decoration: underline;
       }
-      button {
-        background: none;
-        border: none;
+      .action{
         font-weight: bold;
+        text-decoration: none;
         font-size: var(--fsAction);
       }
-    }
+    .actionPack:hover{transform: scale(1.07);transition: all 0.15s ease;}
   }
 }
 

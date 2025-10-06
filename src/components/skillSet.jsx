@@ -15,9 +15,11 @@ import Zustand from '../Images/Logos/Vite.png'
 import Bootstrap from '../Images/Logos/Bootstrap.png'
 import Sass from '../Images/Logos/Sass.png'
 import Git from '../Images/Logos/Git.png'
+import Next from '../Images/Logos/NextJS.png'
+import NodeJs from '../Images/Logos/NodeJS.png'
 import TypeScript from '../Images/Logos/TypeScript.png'
 
-const Skills=[["HTML",Html,95],["CSS",Css,90],["Javascript",Javascript,80],["React",React,80],["Redux",Redux,85],["Vite",Vite,95],["Page Router",Router,75],["TypeScript",TypeScript,70],["CSharp",CSharp,70],["Bootstrap",Bootstrap,70],["Git & Github",Git,55],["SASS / LESS",Sass,70],["Photoshop",Photoshop,85],["Unity 2d",Unity,80]]
+const Skills=[["HTML",Html,95],["CSS",Css,90],["Javascript",Javascript,85],["React",React,80],["Redux",Redux,65],["Vite",Vite,95],["Page Router",Router,75],["TypeScript",TypeScript,67],["CSharp",CSharp,70],["Bootstrap",Bootstrap,70],["Git & Github",Git,55],["SASS / LESS",Sass,70],["Next Js",Next,41],["Photoshop",Photoshop,85],["Unity 2d",Unity,80],/* ["Node Js",NodeJs,18] */]
 
 export default function SkillSet(){
 
