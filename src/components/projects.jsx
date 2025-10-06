@@ -16,14 +16,14 @@ const projects=[
     stacks:["TypeScript","SASS","Vite"]},
 
     {name:"Business Card Maker",image:BizCard,
-    codeLink:"",liveLink:"",about:"App that dynamically designs business cards.",
+    codeLink:"https://github.com/ZakheNet/BusinessCard/tree/main",liveLink:"https://zakhenet.github.io/BusinessCard/",about:"App that dynamically designs business cards.",
     stacks:["","Bootstrap","React"]},
 
     {name:"Bootcamp homepage",image:WeCode, codeLink:"https://github.com/ZakheNet/WeCodeBootcamp",liveLink:"https://zakhenet.github.io/WeCodeBootcamp/",about:"A coding bootcamp landing homepage",
     stacks:["","Bootstrap","Vanilla JavaScript"]},
 
     {name:"Todo List App",image:TodoList,
-    codeLink:"",liveLink:"",about:"A fully functional TodoList app.",
+    codeLink:"",liveLink:"https://zakhenet.github.io/todo-memo/",about:"A fully functional TodoList app.",
     stacks:["React","",""]},
 
     {name:"Photoshop Work",image:PhotoshopPrj,
