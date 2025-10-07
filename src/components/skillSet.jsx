@@ -17,9 +17,10 @@ import Sass from '../Images/Logos/Sass.png'
 import Git from '../Images/Logos/Git.png'
 import Next from '../Images/Logos/NextJS.png'
 import NodeJs from '../Images/Logos/NodeJS.png'
+import Express from '../Images/Logos/Express.png'
 import TypeScript from '../Images/Logos/TypeScript.png'
 
-const Skills=[["HTML",Html,95],["CSS",Css,90],["Javascript",Javascript,85],["React",React,80],["Redux",Redux,65],["Vite",Vite,95],["Page Router",Router,75],["TypeScript",TypeScript,67],["CSharp",CSharp,70],["Bootstrap",Bootstrap,70],["Git & Github",Git,55],["SASS / LESS",Sass,70],["Next Js",Next,41],["Photoshop",Photoshop,85],["Unity 2d",Unity,80],/* ["Node Js",NodeJs,18] */]
+const Skills=[["HTML",Html,95],["CSS",Css,90],["Javascript",Javascript,85],["React",React,80],["Redux",Redux,65],["Vite",Vite,95],["Page Router",Router,75],["TypeScript",TypeScript,67],["CSharp",CSharp,70],["Bootstrap",Bootstrap,70],["Git & Github",Git,55],["SASS / LESS",Sass,70],["Next Js",Next,41],["Photoshop",Photoshop,85],["Unity 2d",Unity,80],["Node.Js (Learning)",NodeJs,29],["Express.Js (Learning)",Express,0]]
 
 export default function SkillSet(){
 
@@ -32,11 +33,11 @@ export default function SkillSet(){
 function MakeSkill(skill){
     
     
-    return(<div className='skill' key={nanoid()}>
+    return(<div className={`skill ${skill[2]<30? "noSkill":""}`} key={nanoid()}>
         <h2 className="skillName">{skill[0]}</h2>
         <img className="skillIcon" src={skill[1]} alt="" />
 
-        <div class="progress skillBar" style={{width:'80%',placeSelf:'center'}}>
+        <div class={`progress skillBar`}   style={{width:'80%',placeSelf:'center'}}>
             <div
                 class="progress-bar gauge fw-bold fs-6 text-dark"
                 role="progressbar"
