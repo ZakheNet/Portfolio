@@ -5,6 +5,7 @@ import TodoList from '../Images/ProjectThumbnail/TodoList.png'
 import BizCard from '../Images/ProjectThumbnail/BizCard.png'
 import WeCode from '../Images/ProjectThumbnail/WeCode.png'
 import CarRent from '../Images/ProjectThumbnail/carrental.png'
+import FOS from '../Images/ProjectThumbnail/FOS.png'
 import { nanoid } from '@reduxjs/toolkit'
 import { Link } from 'react-router'
 
@@ -14,6 +15,10 @@ const projects=[
     {name:"Car Rental",image:CarRent,
     codeLink:"",liveLink:"https://zakhenet.github.io/CarRental/",about:"Vehicle renting site with fiter, search and live total-preview system",
     stacks:["TypeScript","SASS","Vite"]},
+
+    {name:"Friend Or Stranger",image:FOS,
+    codeLink:"https://github.com/ZakheNet/FriendOrStranger",liveLink:"https://friendorstranger.vercel.app/",about:" Create questions, share the link, and see how well friends know you.",
+    stacks:["","Mongo DB","ExpressJS","Mongoose"]},
 
     {name:"Business Card Maker",image:BizCard,
     codeLink:"https://github.com/ZakheNet/BusinessCard/tree/main",liveLink:"https://zakhenet.github.io/BusinessCard/",about:"App that dynamically designs business cards.",
