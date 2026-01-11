@@ -30,7 +30,7 @@ export default function Portfolio() {
                   <p className="hovLtr">E</p>
                 </div>
                 <p className="role">
-                  Frontend Web Developer <span style={{}}></span>
+                  Fullstack Web/App Developer <span style={{}}></span>
                 </p>
               </div>
             </div>
@@ -47,8 +47,8 @@ export default function Portfolio() {
 
           <div className="about">
             <p className="bio">
-              Im a passionate self-taught web developer who enjoys solving
-              problems, building fast and responsive web Apps
+              Im a passionate fullstack developer who enjoys building fast,
+              responsive and user friendly Websites and Android Apps from start to finish.
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Html from "../Images/Logos/Html.png";
 import Css from "../Images/Logos/Css.png";
 import Javascript from "../Images/Logos/Javascript.png";
 import React from "../Images/Logos/React.png";
+import ReactNative from "../Images/Logos/reactNative.png";
 import CSharp from "../Images/Logos/Csharp.png";
 import Photoshop from "../Images/Logos/Photoshop.png";
 import Redux from "../Images/Logos/Redux.png";
@@ -26,20 +27,21 @@ const Skills = [
   ["CSS", Css, 90],
   ["Javascript", Javascript, 85],
   ["React", React, 80],
-  ["Redux", Redux, 65],
-  ["Vite", Vite, 95],
+  /* ["Redux", Redux, 65], */
+  /* ["Vite", Vite, 95], */
  /*  ["Page Router", Router, 75], */
-  ["TypeScript", TypeScript, 67],
+  ["TypeScript", TypeScript, 80],
   /* ["CSharp", CSharp, 70], */
   ["Bootstrap", Bootstrap, 70],
-  ["Git & Github", Git, 60],
+  /* ["Git & Github", Git, 60], */
   ["SASS / LESS", Sass, 70],
-  ["Next Js", Next, 41],
-  ["Node.Js", NodeJs, 50],
-  ["Express.Js", Express, 70],
+  /* ["Next Js", Next, 41], */
+  /* ["Node.Js", NodeJs, 50], */
+  ["Express.Js", Express, 75],
+  ["React Native (Expo)", ReactNative, 70],
   ["Mongo DB", Mongo, 75],
   ["Photoshop", Photoshop, 85],
-  ["Unity 2d", Unity, 80],
+  ["Unity (2d)", Unity, 80],
 ];
 
 export default function SkillSet() {
