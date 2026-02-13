@@ -30,7 +30,7 @@ const Skills = [
   /* ["Redux", Redux, 65], */
   /* ["Vite", Vite, 95], */
  /*  ["Page Router", Router, 75], */
-  ["TypeScript", TypeScript, 80],
+  ["TypeScript", TypeScript, 85],
   /* ["CSharp", CSharp, 70], */
   ["Bootstrap", Bootstrap, 70],
   /* ["Git & Github", Git, 60], */
@@ -39,7 +39,7 @@ const Skills = [
   /* ["Node.Js", NodeJs, 50], */
   ["Express.Js", Express, 75],
   ["React Native (Expo)", ReactNative, 70],
-  ["Mongo DB", Mongo, 75],
+  ["Mongo DB", Mongo, 80],
   ["Photoshop", Photoshop, 85],
   ["Unity (2d)", Unity, 80],
 ];

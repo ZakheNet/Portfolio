@@ -4,7 +4,7 @@ export default function Footer(){
 
     return(
         <footer>
-            <p>Zakhe Mokoena | ZakheNet@gmail.com | Earth, SouthAfrica, Gauteng, Johannesburg South,1828 | Last updated: 11 Jan 2026</p>
+            <p>Zakhe Mokoena | ZakheNet@gmail.com | Earth, SouthAfrica, Gauteng, Johannesburg South,1828 | Last updated: 13 Feb 2026</p>
         </footer>
     )
 }
